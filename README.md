@@ -12,3 +12,8 @@ npm run install dan npm run dev
 
 setting dataabse
 dan migrate
+
+install spatie untuk permission
+ composer require spatie/laravel-permission
+
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
